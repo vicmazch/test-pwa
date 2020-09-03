@@ -249,7 +249,7 @@
       .side-nav-inner {
         .side-nav-logo {
           padding: 0px 20px;
-          border-bottom: 1px solid $border-color;
+          border-bottom: 1px solid transparent; //$border-color;
 
           a {
             .logo {
@@ -262,7 +262,7 @@
             }
 
             .logo-white {
-              background-image: url("../../images/logo/logo-white.svg") !important;
+              background-image: url("../../images/logo/logo-white.png") !important;
             }
           }
         }
@@ -372,7 +372,7 @@
               }
 
               .logo-white {
-                background-image: url("../../images/logo/logo-white.svg") !important;
+                background-image: url("../../images/logo/logo-white.png") !important;
               }
             }
           }
@@ -410,7 +410,7 @@
       .side-nav-inner {
         .side-nav-logo {
           padding: 0px 20px;
-          border-bottom: 1px solid $border-color;
+          border-bottom: 1px solid transparent; //$border-color;
 
           > a {
             .logo {
@@ -423,7 +423,7 @@
             }
 
             .logo-white {
-              background-image: url("../../images/logo/logo-white.svg") !important;
+              background-image: url("../../images/logo/logo-white.png") !important;
             }
           }
         }
