@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1599233618106,
+  "timestamp": 1599235492499,
   "index": "/test-pwa/index.html",
   "assetGroups": [
     {
@@ -19,11 +19,15 @@
         "/test-pwa/favicon.ico",
         "/test-pwa/index.html",
         "/test-pwa/main.50bece1f9403a1c39452.js",
+        "/test-pwa/main.5c9f494b9297e385a79e.js",
         "/test-pwa/manifest.webmanifest",
+        "/test-pwa/ngsw-worker.js",
         "/test-pwa/polyfills.e6af72b7ffe943d0a128.js",
         "/test-pwa/runtime.1ffa016515d934b32c42.js",
+        "/test-pwa/safety-worker.js",
         "/test-pwa/scripts.e85c52758227fe2d4dd1.js",
-        "/test-pwa/styles.828b8119f69fbc882e12.css"
+        "/test-pwa/styles.828b8119f69fbc882e12.css",
+        "/test-pwa/worker-basic.min.js"
       ],
       "patterns": []
     },
@@ -400,22 +404,26 @@
     "/test-pwa/common.5870f073073bcd1a0670.js": "ea080a06a97548620126b7279a9cdaf4fb72f2f2",
     "/test-pwa/en-construccion.6faf041228e4aa52a51f.svg": "c7e9444a7bcea5da73d93a872e78315586f78c79",
     "/test-pwa/favicon.ico": "7df0e5066d9983409429db8b59dbde448724ff58",
-    "/test-pwa/index.html": "93c1451bb54556acfcbe60f6c6fee31464431afe",
+    "/test-pwa/index.html": "913662027cf9022fce162402d105a189fed830a5",
     "/test-pwa/logo-sm.a8c760f755afcd9a2165.png": "6f0fe48a10a8d306ab4cb49857f70e6bb9576c81",
     "/test-pwa/logo-white-sm.ed5bfa8dd8472544d861.png": "3cca01267c3dc0b13a1e913bab6c61042855d323",
     "/test-pwa/logo-white.96f886e88315883bcf59.png": "18a34de9060c4cbaf63e398e4d44499fe6b06b34",
     "/test-pwa/logo.2181a3be737e3a43e68e.png": "0347c5e839d83747abc174d815e722ee6b1e453d",
     "/test-pwa/main.50bece1f9403a1c39452.js": "501d45466172505f138804992b1394c2d9ba9e8d",
+    "/test-pwa/main.5c9f494b9297e385a79e.js": "773010ea20f6ed829e780874fc77f412bb251d48",
     "/test-pwa/manifest.webmanifest": "363f18531c6ab07c3826213c5d75d843bcaa4b2c",
+    "/test-pwa/ngsw-worker.js": "c3b3c152737629b63e937a68ca48b8911606ece7",
     "/test-pwa/polyfills.e6af72b7ffe943d0a128.js": "ee8f3e297277217240bedbd5ac098b799aa5365f",
     "/test-pwa/runtime.1ffa016515d934b32c42.js": "787b15099c1bf74a5be316034c534f381aa1e705",
+    "/test-pwa/safety-worker.js": "f532926317210be6e2679d21748dc44a35389807",
     "/test-pwa/scripts.e85c52758227fe2d4dd1.js": "b3fd9624bc6b253143cd16c5723cb773fd387682",
     "/test-pwa/sort_asc.4bba59196d7ce2619696.png": "4ed7eba22e4258db81fd79761ed5fc6d00c7dab7",
     "/test-pwa/sort_asc_disabled.27ac5d1bc294b1fae056.png": "ae170a833b6f5d6344570061c60291b5b45e6004",
     "/test-pwa/sort_both.8b117faa9d4dd934d6bb.png": "96e499eff491eac39508e1696686712df94108aa",
     "/test-pwa/sort_desc.c4196d3286cc33244c83.png": "5d17b4a1cd4c5d92df1adc190a9292674e2a3ab0",
     "/test-pwa/sort_desc_disabled.07c018ae0160704a3290.png": "960aafb94a313744af3b6b5cfaced54024a429bf",
-    "/test-pwa/styles.828b8119f69fbc882e12.css": "17453e3df065dd56ea7786dafca82b7addc7f548"
+    "/test-pwa/styles.828b8119f69fbc882e12.css": "17453e3df065dd56ea7786dafca82b7addc7f548",
+    "/test-pwa/worker-basic.min.js": "f532926317210be6e2679d21748dc44a35389807"
   },
   "navigationUrls": [
     {
