@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1600120101182,
+  "timestamp": 1600977993115,
   "index": "/test-pwa/index.html",
   "assetGroups": [
     {
@@ -11,20 +11,20 @@
         "ignoreVary": true
       },
       "urls": [
-        "/test-pwa/5.5b3d7553262393f6f7ab.js",
-        "/test-pwa/6.1e165711af11d736a233.js",
-        "/test-pwa/7.a34d6c9b7440b4786d31.js",
-        "/test-pwa/8.6551e091f55a4d12d510.js",
-        "/test-pwa/9.915506baa39d1a19f73e.js",
-        "/test-pwa/common.9203b1fd7e4484de14d2.js",
+        "/test-pwa/5.f43d95f27d2157efd98b.js",
+        "/test-pwa/6.a758dfc3b8605ab30188.js",
+        "/test-pwa/7.7cd89e51b39e15ff746f.js",
+        "/test-pwa/8.4eb787c7d0d192aca0c6.js",
+        "/test-pwa/9.8a78d32b0f891721194f.js",
+        "/test-pwa/common.520bb45ac2b00d81104c.js",
         "/test-pwa/favicon.ico",
         "/test-pwa/index.html",
-        "/test-pwa/main.95839c904b09c94c5f56.js",
+        "/test-pwa/main.bb467ca3b6d82d669b94.js",
         "/test-pwa/manifest.webmanifest",
         "/test-pwa/polyfills.c09efe3c81281d8cca56.js",
-        "/test-pwa/runtime.12898f1f5ddabc95319c.js",
+        "/test-pwa/runtime.243ea70bbeef60353e00.js",
         "/test-pwa/scripts.e85c52758227fe2d4dd1.js",
-        "/test-pwa/styles.15a42d432e99455c6930.css"
+        "/test-pwa/styles.babec7fbe3349b715b5e.css"
       ],
       "patterns": []
     },
@@ -237,10 +237,12 @@
   ],
   "dataGroups": [
     {
-      "name": "api-rest-de",
+      "name": "api",
       "patterns": [
         "https:\\/\\/pru-kcm\\.elmarquesdigital\\.com\\/.*",
-        "https:\\/\\/pru-bsm\\.elmarquesdigital\\.com\\/.*"
+        "https:\\/\\/pru-bsm\\.elmarquesdigital\\.com\\/.*",
+        "https:\\/\\/vicmazch\\.github\\.io\\/test-pwa\\/.*",
+        "http:\\/\\/127\\.0\\.0\\.1:8081\\/.*"
       ],
       "strategy": "freshness",
       "maxSize": 20,
@@ -253,11 +255,11 @@
     }
   ],
   "hashTable": {
-    "/test-pwa/5.5b3d7553262393f6f7ab.js": "e38cc9e0952778dc0da5ac70183cfb20db7f4a62",
-    "/test-pwa/6.1e165711af11d736a233.js": "4054f38ec58379f7f4f748d4b1634255aeae7156",
-    "/test-pwa/7.a34d6c9b7440b4786d31.js": "5185f6377b2a4d7096881ceae528185edb8ef736",
-    "/test-pwa/8.6551e091f55a4d12d510.js": "3ac995ed809392a5cfb56b6832d6f3b752ae6fff",
-    "/test-pwa/9.915506baa39d1a19f73e.js": "41305fb6d65dd7d3da6a26f14012f09ce572c171",
+    "/test-pwa/5.f43d95f27d2157efd98b.js": "7fd8d668a0d90bdd01b1b716dc56307afde72863",
+    "/test-pwa/6.a758dfc3b8605ab30188.js": "ceecf36aceabc1c247465618ba5a273ee70149bd",
+    "/test-pwa/7.7cd89e51b39e15ff746f.js": "cb412c28e7e5637aa8187697f3ef17e522e9f2a3",
+    "/test-pwa/8.4eb787c7d0d192aca0c6.js": "012f0c4564c29f8eea9226e92ded6a7643dba089",
+    "/test-pwa/9.8a78d32b0f891721194f.js": "41305fb6d65dd7d3da6a26f14012f09ce572c171",
     "/test-pwa/assets/css/animate.min.css": "9dbafd515e8f19c9618cf485422f3d544ba7a700",
     "/test-pwa/assets/css/ei-icon.css": "e23a72430d621604ff383e86f00a433b766e8da7",
     "/test-pwa/assets/css/font-awesome.min.css": "512c7d79033e3028a9be61b540cf1a6870c896f8",
@@ -380,7 +382,7 @@
     "/test-pwa/assets/scss/apps/_social.scss": "b8f429d650e24cc45ab4f819ebd332d05c509cea",
     "/test-pwa/assets/scss/apps/_task.scss": "a27da5be87a0c2cd8d9a7bfabc41df4e8b50c010",
     "/test-pwa/assets/scss/common/_footer.scss": "15720183d3d427f7576576a2c2a1e12b70546fc0",
-    "/test-pwa/assets/scss/common/_general.scss": "b79064cb8fb2ed0e478b1fc2162c10048383199b",
+    "/test-pwa/assets/scss/common/_general.scss": "e4e5c1e1e4cf7abd301e871c024f0b66bd63d5f3",
     "/test-pwa/assets/scss/common/_header.scss": "085114a6b7610323852948a2d610ba0d3e6f8e8a",
     "/test-pwa/assets/scss/common/_helpers.scss": "5bc83cd8537f614014aa500802ab64d17b6d5cb2",
     "/test-pwa/assets/scss/common/_page-container.scss": "046c7bf2dd1b8a24e14e722e8789540741c4e473",
@@ -443,25 +445,25 @@
     "/test-pwa/assets/splashes/apple-splash-640-1136.jpg": "67e6841e31e13177510cbd0f2461b56a11614b69",
     "/test-pwa/assets/splashes/apple-splash-750-1334.jpg": "6f3e60b079ba1a94c47b968c483d59e8d2fb0aeb",
     "/test-pwa/assets/splashes/apple-splash-828-1792.jpg": "f2fb7bcc504febe413432e94e237ed71414bd471",
-    "/test-pwa/common.9203b1fd7e4484de14d2.js": "3f3bfcecfffe2c263abe4c1a1eeea5fff498d1f2",
+    "/test-pwa/common.520bb45ac2b00d81104c.js": "c349857582255f3ff876db46b14304cd920eb209",
     "/test-pwa/en-construccion.6faf041228e4aa52a51f.svg": "c7e9444a7bcea5da73d93a872e78315586f78c79",
     "/test-pwa/favicon.ico": "7df0e5066d9983409429db8b59dbde448724ff58",
-    "/test-pwa/index.html": "b023ebd204ab23bd3f5f4bf176dc0b40c09a0ca7",
+    "/test-pwa/index.html": "8fd91639d90a850e009d21ad35d72080f8cde8aa",
     "/test-pwa/logo-sm.a8c760f755afcd9a2165.png": "6f0fe48a10a8d306ab4cb49857f70e6bb9576c81",
     "/test-pwa/logo-white-sm.ed5bfa8dd8472544d861.png": "3cca01267c3dc0b13a1e913bab6c61042855d323",
     "/test-pwa/logo-white.96f886e88315883bcf59.png": "18a34de9060c4cbaf63e398e4d44499fe6b06b34",
     "/test-pwa/logo.2181a3be737e3a43e68e.png": "0347c5e839d83747abc174d815e722ee6b1e453d",
-    "/test-pwa/main.95839c904b09c94c5f56.js": "ced5ae1b476f13494dcee0e1e0fe78074c4dc1bb",
+    "/test-pwa/main.bb467ca3b6d82d669b94.js": "3cd94852eb1bbf7d148a7b2f1fcbf98569cd41f7",
     "/test-pwa/manifest.webmanifest": "363f18531c6ab07c3826213c5d75d843bcaa4b2c",
     "/test-pwa/polyfills.c09efe3c81281d8cca56.js": "55caa7a654ba6565e54deebc63693f3c299c46a7",
-    "/test-pwa/runtime.12898f1f5ddabc95319c.js": "3b5f77d54f6686623f634fbdb0bb3651e04caded",
+    "/test-pwa/runtime.243ea70bbeef60353e00.js": "a8130641d3cc5af22e61b94cc290ca85bf3a9b15",
     "/test-pwa/scripts.e85c52758227fe2d4dd1.js": "b3fd9624bc6b253143cd16c5723cb773fd387682",
     "/test-pwa/sort_asc.4bba59196d7ce2619696.png": "4ed7eba22e4258db81fd79761ed5fc6d00c7dab7",
     "/test-pwa/sort_asc_disabled.27ac5d1bc294b1fae056.png": "ae170a833b6f5d6344570061c60291b5b45e6004",
     "/test-pwa/sort_both.8b117faa9d4dd934d6bb.png": "96e499eff491eac39508e1696686712df94108aa",
     "/test-pwa/sort_desc.c4196d3286cc33244c83.png": "5d17b4a1cd4c5d92df1adc190a9292674e2a3ab0",
     "/test-pwa/sort_desc_disabled.07c018ae0160704a3290.png": "960aafb94a313744af3b6b5cfaced54024a429bf",
-    "/test-pwa/styles.15a42d432e99455c6930.css": "ac383cd5a2b5f25a722346aaccb0d1f73cdb10f9"
+    "/test-pwa/styles.babec7fbe3349b715b5e.css": "83ec6bf6b76149cca18bcd6f2943cffbd11881ca"
   },
   "navigationUrls": [
     {
